@@ -35,13 +35,6 @@ public class ActDashboard extends AppCompatActivity {
 
     //|------------------------------------------------------------|
     @Override
-    protected void onPostCreate(Bundle argSavedInstanceState) {
-        super.onPostCreate(argSavedInstanceState);
-        //spinalNavDrawer.onPostCreate();
-    }
-
-    //|------------------------------------------------------------|
-    @Override
     public boolean onOptionsItemSelected(MenuItem argMenuItem) {
         switch (argMenuItem.getItemId()) {
             case android.R.id.home:
