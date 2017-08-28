@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sysDrawerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!-- The main content view -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/idLineLayToolBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+
+        <FrameLayout
+            android:id="@+id/sysFrameContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/idLineLayToolBar"
+            android:layout_marginTop="?attr/actionBarSize" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/sysIdDrawerContainer"
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="left|start"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:background="#ffffff"
+        android:fitsSystemWindows="true">
+
+        <ListView
+            android:id="@+id/sysDrawerList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:background="#00ffffff"
+            android:choiceMode="singleChoice"
+            android:divider="#e5e5e5"
+            android:dividerHeight="1dp" />
+    </RelativeLayout>
+</android.support.v4.widget.DrawerLayout>

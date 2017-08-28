@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">And Library Spinal Nav Drawer</string>
+    <string name="spinal_nav_drawer_open">Spinal Navigation Drawer Open</string>
+    <string name="spinal_nav_drawer_close">Spinal Navigation Drawer Close</string>
+</resources>
