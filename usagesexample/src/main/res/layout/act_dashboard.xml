@@ -15,8 +15,9 @@
         <android.support.v7.widget.Toolbar
             android:id="@+id/sysToolBar"
             android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
+            android:layout_height="64dp"
             android:clipToPadding="true">
+            <!--?attr/actionBarSize-->
 
             <!--<ImageView
                 android:layout_width="wrap_content"
@@ -52,7 +53,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/idLineLayToolBar"
-                android:layout_marginTop="?attr/actionBarSize" />
+                android:layout_marginTop="64dp" />
         </LinearLayout>
 
         <RelativeLayout
@@ -60,7 +61,7 @@
             android:layout_width="240dp"
             android:layout_height="match_parent"
             android:layout_gravity="left|start"
-            android:layout_marginTop="?attr/actionBarSize"
+            android:layout_marginTop="64dp"
             android:background="#ffffff"
             android:fitsSystemWindows="true">
 
@@ -72,7 +73,8 @@
                 android:background="#00ffffff"
                 android:choiceMode="singleChoice"
                 android:divider="#e5e5e5"
-                android:dividerHeight="1dp" />
+                android:dividerHeight="1dp"
+                android:scrollbars="none" />
         </RelativeLayout>
     </android.support.v4.widget.DrawerLayout>
 
